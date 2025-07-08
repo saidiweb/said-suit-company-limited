@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Products - Said Suit Company Limited</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'carlbiri', sans-serif;
+      background-color: black;
+      color: rgb(241, 236, 236);
+    }
+
+    header {
+      background: #080707;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 2rem;
+    }
+
+    nav a {
+      color: rgb(239, 237, 237);
+      text-decoration: none;
+      margin-left: 20px;
+      font-weight: bold;
+      transition: color 0.3s;
+      text-transform: capitalize;
+    }
+
+    nav a:hover {
+      color: gold;
+    }
+
+    .logo img {
+      width: 70px;
+      height: 70px;
+      border-radius: 10px;
+    }
+
+    h1 marquee {
+      color: gold;
+      margin: 15px 0;
+      font-weight: bold;
+      font-size: 1.5rem;
+    }
+
+    /* Div kubwa ya bidhaa */
+    .products-container {
+      width: 100%;
+      padding: 30px 50px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+      gap: 30px;
+      box-sizing: border-box;
+    }
+
+    .product-card {
+      background-color: rgba(35, 35, 35, 0.95);
+      border-radius: 10px;
+      padding: 15px;
+      text-align: center;
+      box-shadow: 0 3px 8px rgba(0, 0, 0, 0.4);
+      transition: transform 0.3s;
+    }
+
+    .product-card:hover {
+      transform: scale(1.03);
+    }
+
+    .product-card img {
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+
+    .price {
+      margin-top: 10px;
+      color: lightgreen;
+      font-weight: bold;
+      font-size: 1.1rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #111;
+      font-size: 0.9rem;
+      color: #ccc;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">
+      <img src="suit logo company.jpg" alt="Said Suit Logo">
+    </div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about us.html">About Us</a>
+      <a href="products.html">Products</a>
+      <a href="our service.html">Our Service</a>
+      <a href="contact us.html">Contact Us</a>
+    </nav>
+  </header>
+
+  <h1><marquee behavior="scroll" direction="left">OFFER!! OFFER!! OFFER!! DISCOUNT OF 20% ON EACH PRODUCT</marquee></h1>
+
+  <div class="products-container">
+
+    <div class="product-card">
+      <img src="black.jpg" alt="Black Suit">
+      <div class="price">$150</div>
+    </div>
+
+    <div class="product-card">
+      <img src="bora.jpg" alt="Bora Suit">
+      <div class="price">$160</div>
+    </div>
+
+    <div class="product-card">
+      <img src="kilio.jpg" alt="Kilio Suit">
+      <div class="price">$170</div>
+    </div>
+
+    <div class="product-card">
+      <img src="kigguu.jpg" alt="Kigguu Suit">
+      <div class="price">$180</div>
+    </div>
+
+    <div class="product-card">
+      <img src="kijiti.jpg" alt="Kijiti Suit">
+      <div class="price">$190</div>
+    </div>
+
+    <div class="product-card">
+      <img src="yee.jpg" alt="Yee Suit">
+      <div class="price">$200</div>
+    </div>
+
+    <div class="product-card">
+      <img src="yule.jpg" alt="Yule Suit">
+      <div class="price">$210</div>
+    </div>
+
+    <div class="product-card">
+      <img src="yuuu.jpg" alt="Yuuu Suit">
+      <div class="price">$220</div>
+    </div>
+
+    <div class="product-card">
+      <img src="utaelewa.jpg" alt="Utaelewa Suit">
+      <div class="price">$230</div>
+    </div>
+
+    <div class="product-card">
+      <img src="uzur.jpg" alt="Uzur Suit">
+      <div class="price">$240</div>
+    </div>
+
+    <div class="product-card">
+      <img src="nini.jpg" alt="Nini Suit">
+      <div class="price">$250</div>
+    </div>
+
+    <div class="product-card">
+      <img src="nipe.jpg" alt="Nipe Suit">
+      <div class="price">$260</div>
+    </div>
+
+    <div class="product-card">
+      <img src="noma.jpg" alt="Noma Suit">
+      <div class="price">$270</div>
+    </div>
+
+    <div class="product-card">
+      <img src="nyingi.jpg" alt="Nyingi Suit">
+      <div class="price">$280</div>
+    </div>
+
+    <div class="product-card">
+      <img src="nzuri.jpg" alt="Nzuri Suit">
+      <div class="price">$290</div>
+    </div>
+
+    <div class="product-card">
+      <img src="mwiko.jpg" alt="Mwiko Suit">
+      <div class="price">$300</div>
+    </div>
+
+    <div class="product-card">
+      <img src="Michael.jpg" alt="Michael Suit">
+      <div class="price">$300</div>
+    </div>
+
+    <div class="product-card">
+      <img src="zugu.jpg" alt="Zugu Suit">
+      <div class="price">$290</div>
+    </div>
+
+    <div class="product-card">
+      <img src="wazingu.jpg" alt="Wazingu Suit">
+      <div class="price">$280</div>
+    </div>
+
+    <div class="product-card">
+      <img src="wewee.jpg" alt="Wewee Suit">
+      <div class="price">$270</div>
+    </div>
+
+    <div class="product-card">
+      <img src="langu.jpg" alt="Langu Suit">
+      <div class="price">$260</div>
+    </div>
+
+    <div class="product-card">
+      <img src="loooi.jpg" alt="Loooi Suit">
+      <div class="price">$250</div>
+    </div>
+
+    <div class="product-card">
+      <img src="luoi.jpg" alt="Luoi Suit">
+      <div class="price">$240</div>
+    </div>
+
+    <div class="product-card">
+      <img src="ruis.jpg" alt="Ruis Suit">
+      <div class="price">$230</div>
+    </div>
+
+  </div>
+
+  <footer>
+    &copy; 2025 Said Suit Company Limited. All rights reserved.
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Contact Us</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: 'carlbiri', sans-serif;
+        background-color: rgb(22, 14, 14);
+        color: rgb(241, 236, 236);
+      }
+      header {
+        background: #080707;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem 2rem;
+      }
+      nav a {
+        color: rgb(239, 237, 237);
+        text-decoration: none;
+        margin-left: 20px;
+        font-weight: bold;
+        transition: color 0.3s;
+      }
+      nav a:hover {
+        color: gold;
+      }
+      .contact-container {
+        max-width: 600px;
+        margin: 3rem auto;
+        background-color: #1c1c1c;
+        padding: 2rem;
+        border-radius: 20px;
+        box-shadow: 0 0 15px rgba(255, 215, 0, 0.3);
+      }
+      .contact-container h2 {
+        text-align: center;
+        color: gold;
+        margin-bottom: 1rem;
+      }
+      .contact-container p {
+        text-align: center;
+        margin-bottom: 2rem;
+        color: #ccc;
+      }
+      label {
+        display: block;
+        margin-bottom: 0.3rem;
+        color: white;
+      }
+      input, textarea {
+        width: 100%;
+        padding: 0.6rem;
+        margin-bottom: 1rem;
+        border-radius: 10px;
+        border: none;
+        background-color: #eee;
+        color: black;
+        font-family: sans-serif;
+      }
+      button {
+        display: block;
+        width: 100%;
+        padding: 0.7rem;
+        background-color: gold;
+        color: black;
+        border: none;
+        border-radius: 10px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: background 0.3s;
+      }
+      button:hover {
+        background-color: #d4af37;
+      }
+      .social-section {
+        text-align: center;
+        margin-top: 3rem;
+      }
+      .social-section h2 {
+        color: gold;
+        margin-bottom: 1rem;
+      }
+      .social-icons a img {
+        width: 60px;
+        height: 60px;
+        margin: 0 10px;
+        border-radius: 12px;
+        transition: transform 0.3s;
+      }
+      .social-icons a img:hover {
+        transform: scale(1.1);
+      }
+      footer {
+        text-align: center;
+        padding: 1rem;
+        background-color: #111;
+        font-size: 0.9rem;
+        color: #aaa;
+        margin-top: 2rem;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="suit logo company.jpg" style="width: 70px; height: 70px; border-radius: 10px;" alt="Logo" />
+      </div>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about us.html">About Us</a>
+        <a href="products.html">Products</a>
+        <a href="our service.html">Our Service</a>
+        <a href="contact us.html">Contact Us</a>
+      </nav>
+    </header>
+
+    <div class="contact-container">
+      <h2>Contact Us</h2>
+      <p>
+        Feel free to reach out to us using the form below or through the contact details.
+      </p>
+      <form method="post">
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" required />
+
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" required />
+
+        <label for="message">Message</label>
+        <textarea name="message" id="message" rows="4" required></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+
+      <p style="margin-top: 2rem; text-align: center;">
+        <strong>Email:</strong> <span style="text-transform: lowercase;">saidjumasar@gmail.com</span><br />
+        <strong>Phone:</strong> +255 618 616 668<br />
+        <strong>Address:</strong> Mtaa wa Uhuru, Dar es Salaam
+      </p>
+    </div>
+
+    <div class="social-section">
+      <h2>Follow Us On</h2>
+      <div class="social-icons">
+        <a href="https://www.tiktok.com/@saidsauit45" target="_blank">
+          <img src="tiktok.jpg" alt="TikTok" />
+        </a>
+        <a href="https://www.facebook.com/profile.php?id=61566565448246" target="_blank">
+          <img src="Facebook.png" alt="Facebook" />
+        </a>
+        <a href="https://www.youtube.com/@SaidJuma-w7o" target="_blank" rel="noopener noreferrer" >
+          <img src="Youtube.jpg" alt="YouTube" />
+        </a>
+        <a href="https://www.instagram.com/saiduma" target="_blank">
+          <img src="instagram.png" alt="Instagram" />
+        </a>
+      </div>
+    </div>
+
+    <footer>
+      &copy; 2025 Said Suit Company Limited. All rights reserved.
+    </footer>
+  </body>
+</html>
